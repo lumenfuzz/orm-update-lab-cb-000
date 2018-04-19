@@ -58,4 +58,8 @@ class Student
     end
   end
 
+  def update
+    self.save
+  end
+
 end
